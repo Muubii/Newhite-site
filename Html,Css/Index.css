@@ -1,3 +1,7 @@
+*{
+    margin: 0px ;
+}
+
 .menu-container{
     display: flex;
     background-color: rgba(0, 0, 0, 0.453);
@@ -17,7 +21,6 @@
     color: black;
     text-decoration: none; 
 }
-
 
 .New-Container{
     display: flex;
@@ -60,7 +63,9 @@
     border-radius: 8px;
     border: transparent;
     text-decoration: none;
+
 }
+
 
 #input{
     background-color: #eee;
@@ -90,7 +95,8 @@
 .grid-body{
     display: grid;
     background-color: whitesmoke;
-    grid-template-rows: 4fr;
+    grid-template-columns: repeat(4,25%);
+    text-align: center;
 }
 
 #img{
