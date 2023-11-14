@@ -45,7 +45,11 @@
 
 
 #Login{
-    width: 55%;
+    width: 50%;
+    text-align: end;
+}
+
+#Login{
     text-align: end;
 }
 
@@ -63,9 +67,17 @@
     border-radius: 8px;
     border: transparent;
     text-decoration: none;
-
 }
 
+#button1{
+    background-color: rgba(0, 0, 0, 0.453);
+    color: whitesmoke;
+    padding: 10px 45px;
+    border-radius: 8px;
+    border: transparent;
+    text-decoration: none;
+    width: 400px;
+}
 
 #input{
     background-color: #eee;
@@ -90,6 +102,8 @@
     text-align: center;
     color: black;
     padding: 50px;
+    bottom: 0%;
+    position: relative;
 }
 
 .grid-body{
@@ -101,6 +115,11 @@
 
 #img{
     width: 300px;
+}
+
+#img1{
+    width: 300px;
+    padding: 0px 50px;
 }
 
 .men{
@@ -118,5 +137,20 @@
 .register{
     background-color: whitesmoke;
     padding: 10px 15px;
-    height: 70vh;
+    height: 60vh;
 }
+
+#txt{
+    padding: 0px 130px;
+}
+
+#text-buy1{
+    text-align: center;
+    padding: 70px;
+}
+
+#text-buy2{
+    text-align: center;
+    height: 30vh;
+}
+
