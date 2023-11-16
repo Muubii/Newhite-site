@@ -22,6 +22,19 @@
     text-decoration: none; 
 }
 
+.space{
+    width: 40%;
+
+}
+
+.box:hover {
+    background-color: rgba(0, 0, 0, 0.453);
+    color: rgb(0, 0, 0);
+    border-radius: 8px;
+    border: transparent;
+    height: 5%;
+}
+
 .New-Container{
     display: flex;
     background-color: whitesmoke;
@@ -45,7 +58,6 @@
 
 
 #Login{
-    width: 50%;
     text-align: end;
 }
 
@@ -97,20 +109,12 @@
     outline: none;
 }
 
-.footer{
-    background-color: rgba(0, 0, 0, 0.453);
-    text-align: center;
-    color: black;
-    padding: 50px;
-    bottom: 0%;
-    position: relative;
-}
-
 .grid-body{
     display: grid;
     background-color: whitesmoke;
     grid-template-columns: repeat(4,25%);
     text-align: center;
+    height: 45vh;
 }
 
 #img{
@@ -154,3 +158,16 @@
     height: 30vh;
 }
 
+#a{
+    text-decoration: none;
+    color: black;
+}
+
+.footer{
+    background-color: rgba(0, 0, 0, 0.453);
+    text-align: center;
+    color: black;
+    padding: 50px;
+    bottom: 0%;
+    position: relative;
+}
