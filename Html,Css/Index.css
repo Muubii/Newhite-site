@@ -9,6 +9,7 @@
 }
 
 #Newhite{
+    display: flex;
     width: 20vh;
     padding: 30px;
     font-size: 2em;
@@ -16,6 +17,7 @@
 }
 
 .box{
+    display: flex;
     padding: 30px;
     font-size: 2em;
     color: black;
@@ -23,8 +25,8 @@
 }
 
 .space{
+    display: flex;
     width: 40%;
-
 }
 
 .box:hover {
@@ -38,10 +40,13 @@
 .New-Container{
     display: flex;
     background-color: whitesmoke;
-    height: 60vh;
     justify-content: space-around;
 }
 
+#img2{
+    width: 33%;
+    height: auto;
+}
 
 .New{
     font-size: 5vh;
@@ -114,11 +119,11 @@
     background-color: whitesmoke;
     grid-template-columns: repeat(4,25%);
     text-align: center;
-    height: 45vh;
 }
 
 #img{
-    width: 300px;
+    width: 100%;  
+    height: auto;
 }
 
 #img1{
